@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Professor Dr. A K M Motinur Rahman, Vice-Chancellor, Islamic University Kushtia, Public Administration, International Relations, Development, Poverty Alleviation, Bogura, Bangladesh" />
+  <meta name="description" content="Official Academic Portfolio of Professor Dr. A K M Motinur Rahman, Ph.D., Vice-Chancellor and Professor of Public Administration, Islamic University, Kushtia, Bangladesh." />
+  <meta name="author" content="Professor Dr. A K M Motinur Rahman" />
+  
+  <title>Prof. Dr. A K M Motinur Rahman | Vice-Chancellor, Islamic University, Kushtia</title>
+
+  <!-- Google Fonts: Poppins & Nunito (matching mizanurrahman.site aesthetic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css?v=4.2">
+  <link rel="shortcut icon" href="assets/images/vc-motinur-rahman-portrait.png" type="image/png">
+</head>
+<body>
+
+  <!-- ========================================================
+       Sticky Navbar
+       ======================================================== -->
+  <header>
+    <a href="#home" class="logo-container">
+      <div class="logo-icon">
+        <i class="fas fa-university"></i>
+      </div>
+      <div class="logo-text">
+        <div class="logo-title" id="headerTeacherName">Prof. Dr. A K M Motinur Rahman</div>
+        <div class="logo-subtitle">Vice-Chancellor, Islamic University, Kushtia</div>
+      </div>
+    </a>
+
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Expertise</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="mobile-drawer-admin admin-only" id="drawerAdminItem" style="display: none;">
+          <button type="button" class="admin-drawer-trigger-btn" id="drawerManageBtn">
+            <span class="badge-dot"></span>
+            <i class="fas fa-sliders-h"></i>
+            <span>Manage Website</span>
+          </button>
+        </li>
+        <li class="mobile-drawer-logout admin-only" id="drawerLogoutItem" style="display: none;">
+          <button type="button" class="admin-drawer-logout-btn" id="drawerLogoutBtn">
+            <i class="fas fa-sign-out-alt"></i>
+            <span>Logout Admin</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-right">
+      <div class="nav-actions">
+        <button type="button" class="admin-trigger-btn admin-only" id="openAdminBtn" title="Manage Website (Alt+A)" style="display: none;">
+          <span class="badge-dot"></span>
+          <i class="fas fa-sliders-h"></i>
+          <span class="btn-text">Manage Website</span>
+        </button>
+        <button type="button" class="admin-logout-btn admin-only" id="headerLogoutBtn" title="Logout Admin" style="display: none;">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="btn-text">Logout</span>
+        </button>
+      </div>
+      <div id="menu" class="fas fa-bars" aria-label="Toggle navigation menu"></div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       Hero Section
+       ======================================================== -->
+  <section class="home" id="home">
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="content">
+      <h2 id="heroName">Hi There, <br/>I'm <span>Prof. Dr. A K M Motinur Rahman</span></h2>
+      <p>I am into <span class="typing-text"></span></p>
+
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">
+          <span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <button type="button" class="btn btn-secondary open-cv-btn">
+          <span>Curriculum Vitae</span>
+          <i class="fas fa-file-download"></i>
+        </button>
+      </div>
+
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a aria-label="Official Email" href="mailto:akmrahman1971@gmail.com" title="Send Official Email"><i class="fas fa-envelope"></i></a></li>
+          <li><a aria-label="Official Phone" href="tel:+8801712888054" title="Call Cell (+880 1712-888054)"><i class="fas fa-phone-alt"></i></a></li>
+          <li><a aria-label="Google Scholar" href="https://scholar.google.com" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a></li>
+          <li><a aria-label="ResearchGate" href="https://researchgate.net" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a></li>
+          <li><a aria-label="Official University Website" href="https://www.iu.ac.bd" target="_blank" title="Islamic University Website"><i class="fas fa-globe"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="image">
+      <div class="avatar-wrapper">
+        <div class="avatar-glow"></div>
+        <img id="heroTeacherPhoto" src="assets/images/vc-motinur-rahman-office.jpg" alt="Prof. Dr. A K M Motinur Rahman, Vice-Chancellor" draggable="false">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       About Section
+       ======================================================== -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-tie"></i> About <span>Me</span></h2>
+
+    <div class="row about-grid" style="display: flex; align-items: flex-start; gap: 4.5rem; margin-top: 2.5rem;">
+      <div class="image about-image-col" style="flex: 0 0 36rem; max-width: 36rem; margin-top: 0; align-self: flex-start;">
+        <div class="image-card" style="margin-top: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 16px 36px rgba(14,36,49,0.12); border: 4px solid #ffffff;">
+          <img id="aboutTeacherPhoto" src="assets/images/vc-motinur-rahman-portrait.png" alt="Prof. Dr. A K M Motinur Rahman" draggable="false" style="width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: center 15%; display: block;">
+        </div>
+      </div>
+
+      <div class="content" style="flex: 1; margin-top: 0;">
+        <h3 id="aboutName" style="margin-top: 0;">I'm Prof. Dr. A K M Motinur Rahman</h3>
+        <span class="tag" id="aboutTag">Vice-Chancellor & Professor – Dept. of Public Administration</span>
+        <p class="bio-text" id="aboutBio">
+          Professor Dr. A K M Motinur Rahman is the Vice-Chancellor of Islamic University, Kushtia, Bangladesh, and a distinguished Professor in the Department of Public Administration. He holds a Doctoral Degree (Ph.D.) in Development and NGO Operations from Islamic University, an M.A. in International Relations from the University of New South Wales (UNSW), Sydney, Australia, and B.S.S (Hon's) & M.S.S in Political Science from the University of Dhaka (First Class 3rd). With over 28 years of academic teaching, high-level university administration, and international research expertise, he has served as Proctor, Hall Provost, Press Administrator, Department Chairman, and Director of the Centre for Social Studies. He was also elected President of the Islamic University Teachers' Association and Vice-President of the Federation of Bangladesh University Teachers' Association.
+        </p>
+
+        <!-- Stats Counters -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3 id="statExp">28+</h3>
+            <p>Years in Academia</p>
+          </div>
+          <div class="stat-card">
+            <h3 id="statPub">35+</h3>
+            <p>Research Papers</p>
+          </div>
+          <div class="stat-card">
+            <h3 id="statCite">02</h3>
+            <p>Authored Books</p>
+          </div>
+          <div class="stat-card">
+            <h3 id="statThesis">12+</h3>
+            <p>Int'l Conferences</p>
+          </div>
+        </div>
+
+        <div class="box-container">
+          <!-- Card 1: Official Contact -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-card-tag">
+                <i class="fas fa-id-card-alt"></i>
+                <span>Official Contact</span>
+              </div>
+            </div>
+            <ul class="info-list">
+              <li class="info-item">
+                <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                <div class="info-meta">
+                  <span class="info-label">Official Email</span>
+                  <a href="mailto:akmrahman1971@gmail.com" class="info-value info-link" id="aboutEmail">akmrahman1971@gmail.com</a>
+                </div>
+              </li>
+              <li class="info-item">
+                <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="info-meta">
+                  <span class="info-label">Mobile & Fax</span>
+                  <span class="info-value"><span id="aboutPhone">+880 1712-888054</span> <span class="info-dot">•</span> Fax: <span id="aboutFax">+88-071-74905</span></span>
+                </div>
+              </li>
+              <li class="info-item">
+                <div class="info-icon"><i class="fas fa-building"></i></div>
+                <div class="info-meta">
+                  <span class="info-label">Secretariat Office</span>
+                  <span class="info-value" id="aboutOffice">Office of the Vice-Chancellor, Administration Building, Islamic University, Kushtia–7003</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Roots & Academic Campus -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-card-tag">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Roots & Campus</span>
+              </div>
+            </div>
+            <ul class="info-list">
+              <li class="info-item">
+                <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="info-meta">
+                  <span class="info-label">Native Place & Date of Birth</span>
+                  <span class="info-value">Bogura, Bangladesh <span class="info-dot">•</span> 10 June 1970</span>
+                </div>
+              </li>
+              <li class="info-item">
+                <div class="info-icon"><i class="fas fa-home"></i></div>
+                <div class="info-meta">
+                  <span class="info-label">Permanent Residence</span>
+                  <span class="info-value">Khalishakandi, Mazira, Shajahanpur, Bogura</span>
+                </div>
+              </li>
+              <li class="info-item">
+                <div class="info-icon"><i class="fas fa-clock"></i></div>
+                <div class="info-meta">
+                  <span class="info-label">Office Schedule</span>
+                  <span class="info-value">Sun – Thu: 09:00 AM – 04:00 PM (IU Campus)</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-actions">
+          <button type="button" class="btn btn-primary open-cv-btn">
+            <span>View Full Curriculum Vitae</span>
+            <i class="fas fa-file-pdf"></i>
+          </button>
+          <a href="#publications" class="btn btn-secondary">
+            <span>Books & Research Publications</span>
+            <i class="fas fa-book-open"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Skills & Competencies Section
+       ======================================================== -->
+  <section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-chalkboard-teacher"></i> Areas of <span>Expertise</span></h2>
+    <p class="sub-heading">Public administration scholarship, governance, development planning, and international affairs</p>
+
+    <div class="skills-filter">
+      <button type="button" class="filter-btn active" data-filter="all">All Disciplines</button>
+      <button type="button" class="filter-btn" data-filter="academic">Public Administration & Governance</button>
+      <button type="button" class="filter-btn" data-filter="islamic">Islamic Economics & Zakat</button>
+      <button type="button" class="filter-btn" data-filter="tech">Policy, SDGs & E-Governance</button>
+      <button type="button" class="filter-btn" data-filter="ai">International Relations & Diplomacy</button>
+    </div>
+
+    <div class="container">
+      <div class="skills-container" id="skillsContainer">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Education Section
+       ======================================================== -->
+  <section class="education" id="education">
+    <h2 class="heading"><i class="fas fa-graduation-cap"></i> Academic <span>Education</span></h2>
+    <p class="sub-heading">Educational qualifications from University of Dhaka, University of New South Wales (Australia), and Islamic University</p>
+
+    <div class="quote-banner">
+      <i class="fas fa-quote-left" style="color:var(--purple-accent); margin-right:8px;"></i>
+      "Poverty alleviation and sustainable human capability development are the moral foundations of good governance and institutional progress."
+    </div>
+
+    <div class="education-timeline" id="educationContainer">
+      <!-- Rendered dynamically by app.js -->
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Experience Section
+       ======================================================== -->
+  <section class="experience" id="experience">
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Leadership & <span>Experience</span></h2>
+    <p class="sub-heading">Over 28 years of distinguished university administration, professorship, and institutional stewardship</p>
+
+    <div class="experience-grid" id="experienceContainer">
+      <!-- Rendered dynamically by app.js -->
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Publications Section
+       ======================================================== -->
+  <section class="publications" id="publications">
+    <h2 class="heading"><i class="fas fa-book"></i> Books & <span>Research Publications</span></h2>
+    <p class="sub-heading">Authored books, peer-reviewed national & international journal papers, and international conference presentations</p>
+
+    <div class="pub-controls">
+      <div class="pub-search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" id="pubSearchInput" placeholder="Search by paper title, journal name, year, or keyword..." />
+      </div>
+
+      <div class="pub-filter-pills">
+        <button type="button" class="pub-pill active" data-category="all">All Works</button>
+        <button type="button" class="pub-pill" data-category="book">Authored Books (02)</button>
+        <button type="button" class="pub-pill" data-category="journal">Journal Articles</button>
+        <button type="button" class="pub-pill" data-category="conference">International Conferences</button>
+      </div>
+
+      <div style="font-size: 1.4rem; font-weight: 700; color: var(--purple-accent);" id="publicationCountBadge">
+        Loading publications...
+      </div>
+    </div>
+
+    <div class="publications-list" id="publicationsContainer">
+      <!-- Rendered dynamically by app.js -->
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Contact Me Section
+       ======================================================== -->
+  <section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-headset"></i> Contact <span>Office</span></h2>
+    <p class="sub-heading">Official communication channels for university administration, academic research, and official correspondences</p>
+
+    <div class="container">
+      <div class="row">
+        <!-- Contact Details -->
+        <div class="contact-info-col">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Official Email</h4>
+              <p>For official correspondences & academic affairs:</p>
+              <a href="mailto:akmrahman1971@gmail.com" id="contactEmail">akmrahman1971@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone-volume"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Direct Telephone & Fax</h4>
+              <p>Cellular: <a href="tel:+8801712888054" id="contactPhone">+880 1712-888054</a></p>
+              <p>Official Fax: <strong>+088-071-74905</strong></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Office of the Vice-Chancellor</h4>
+              <p id="contactOffice">Administration Building, Islamic University Campus</p>
+              <p style="font-weight: 600; color: var(--navy-dark);">Kushtia–7003, Bangladesh</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="far fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Office & Consultation Hours</h4>
+              <p id="contactHours">Sunday – Thursday: 09:00 AM – 04:00 PM</p>
+              <p style="font-size: 1.25rem; color: #10b981; font-weight: 600;"><i class="fas fa-circle" style="font-size: 0.8rem;"></i> Open for Official Administration</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-col">
+          <h3>Send an Official Inquiry</h3>
+          <p class="form-subtitle">Submit your academic or administrative inquiry to the Vice-Chancellor's Secretariat.</p>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="cName"><i class="fas fa-user"></i> Your Full Name</label>
+              <input type="text" id="cName" placeholder="e.g. Professor Dr. Md. Rafiqul Islam" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cEmail"><i class="fas fa-at"></i> Your Email Address</label>
+              <input type="email" id="cEmail" placeholder="e.g. name@institution.edu.bd" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cSubject"><i class="fas fa-tag"></i> Purpose / Category</label>
+              <select id="cSubject" required>
+                <option value="">Select Category</option>
+                <option value="Academic Collaboration">Academic & Research Collaboration</option>
+                <option value="Institutional Affairs">Institutional / University Affairs</option>
+                <option value="Keynote & Conference">Keynote / Conference Invitation</option>
+                <option value="Department Affairs">Department of Public Administration Matters</option>
+                <option value="General Communication">Official Correspondence</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cMessage"><i class="fas fa-comment-dots"></i> Message Content</label>
+              <textarea id="cMessage" rows="5" placeholder="Write the details of your inquiry or message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Footer Section
+       ======================================================== -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3 id="footerName">Prof. Dr. A K M Motinur Rahman</h3>
+        <p id="footerDept">Vice-Chancellor, Islamic University, Kushtia–7003, Bangladesh & Professor, Department of Public Administration.</p>
+        <p style="font-size: 1.3rem; color: #94a3b8;">
+          Committed to promoting academic excellence, ethical public administration, transformative socio-economic research, and institutional integrity across Islamic University.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation Links</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About VC</a></li>
+          <li><a href="#skills"><i class="fas fa-chevron-right"></i> Areas of Expertise</a></li>
+          <li><a href="#education"><i class="fas fa-chevron-right"></i> Education</a></li>
+          <li><a href="#experience"><i class="fas fa-chevron-right"></i> Experience</a></li>
+          <li><a href="#publications"><i class="fas fa-chevron-right"></i> Books & Publications</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Vice-Chancellor's Secretariat</h4>
+        <p><i class="fas fa-map-marker-alt" style="color:var(--orange-accent);"></i> Administration Building, IU Campus, Kushtia–7003</p>
+        <p><i class="fas fa-envelope" style="color:var(--purple-accent);"></i> akmrahman1971@gmail.com</p>
+        <p><i class="fas fa-globe" style="color:var(--primary-color);"></i> <a href="https://www.iu.ac.bd" target="_blank" style="color:#94a3b8;">www.iu.ac.bd</a></p>
+        <p><i class="fas fa-file-pdf" style="color:#f59e0b;"></i> <a href="https://www.iu.ac.bd/public/images/teacher/7f89c7924538a027a7cecd6ab4d045fd.pdf" target="_blank" style="color:#f59e0b;">Official Teacher CV (PDF)</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>
+        <strong>Islamic University, Kushtia–7003, Bangladesh</strong> &copy; 2026. Official Portfolio of Vice-Chancellor Prof. Dr. A K M Motinur Rahman.
+      </div>
+      <div>
+        Inspired by <strong>mizanurrahman.site</strong> Color Theme
+        <a href="javascript:void(0)" id="footerSecretLockBtn" class="footer-secret-lock" tabindex="-1">
+          <i class="fas fa-lock"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <div id="back-to-top" title="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ========================================================
+       ADMIN LOGIN MODAL
+       Secures access to the VC Portfolio management panel
+       ======================================================== -->
+  <div class="modal-overlay" id="adminLoginModal">
+    <div class="auth-modal-card">
+      <div class="auth-header">
+        <div class="auth-icon-badge">
+          <i class="fas fa-user-shield"></i>
+        </div>
+        <button type="button" class="close-modal-btn" id="closeAdminLoginModal" title="Close Login Window">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="auth-body">
+        <h3>Admin Portal Login</h3>
+        <p class="auth-subtitle">Restricted access for Vice-Chancellor portfolio administration.</p>
+        
+        <form id="adminLoginForm" autocomplete="off">
+          <div class="auth-input-group">
+            <label for="adminUsernameInput"><i class="fas fa-user"></i> Username</label>
+            <input type="text" id="adminUsernameInput" class="auth-control" placeholder="Username" required />
+          </div>
+
+          <div class="auth-input-group">
+            <label for="adminPasswordInput"><i class="fas fa-key"></i> Password / PIN</label>
+            <div class="password-wrapper">
+              <input type="password" id="adminPasswordInput" class="auth-control" placeholder="Password / PIN" required />
+              <button type="button" id="togglePasswordVisibilityBtn" class="toggle-pwd-btn" title="Toggle password visibility">
+                <i class="fas fa-eye" id="togglePasswordIcon"></i>
+              </button>
+            </div>
+          </div>
+
+          <div id="adminLoginErrorMsg" class="auth-error-msg" style="display: none;">
+            <i class="fas fa-exclamation-circle"></i>
+            <span id="adminLoginErrorText">Invalid username or password.</span>
+          </div>
+
+          <div class="auth-actions">
+            <button type="submit" class="btn btn-primary btn-block" id="adminLoginSubmitBtn">
+              <i class="fas fa-sign-in-alt"></i> Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       TEACHER / VC ADMIN PORTAL MODAL
+       Allows VC / administrator to change photo, add/delete publications,
+       add/delete experiences, add/delete skills, etc.
+       ======================================================== -->
+  <div class="modal-overlay" id="adminModal">
+    <div class="admin-modal">
+      <div class="admin-header">
+        <div class="admin-title">
+          <i class="fas fa-user-shield"></i>
+          <div>
+            <h3>Vice-Chancellor Admin Portal</h3>
+            <p>Manage Profile Photo, Publications, Experience, and Skills in Real-Time</p>
+          </div>
+        </div>
+        <div class="admin-header-actions">
+          <button type="button" class="btn-logout-panel" id="modalLogoutBtn" title="Logout from Admin">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+          <button type="button" class="close-modal-btn" id="closeAdminModal" title="Close Admin Window">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs inside Admin -->
+      <div class="admin-nav-tabs">
+        <button type="button" class="admin-tab-btn active" data-tab="tabPhotoProfile">
+          <i class="fas fa-id-card"></i> Profile & Photo
+        </button>
+        <button type="button" class="admin-tab-btn" data-tab="tabPublications">
+          <i class="fas fa-book"></i> Publications & Books
+        </button>
+        <button type="button" class="admin-tab-btn" data-tab="tabExperience">
+          <i class="fas fa-briefcase"></i> Experience
+        </button>
+        <button type="button" class="admin-tab-btn" data-tab="tabSkills">
+          <i class="fas fa-laptop-code"></i> Expertise & Skills
+        </button>
+        <button type="button" class="admin-tab-btn" data-tab="tabSettings">
+          <i class="fas fa-cogs"></i> Backup & Reset
+        </button>
+      </div>
+
+      <div class="admin-body">
+
+        <!-- 1. Photo & Profile Tab -->
+        <div class="tab-pane active" id="tabPhotoProfile">
+          <div class="photo-upload-section">
+            <div class="preview-avatar-box">
+              <img id="adminAvatarPreview" src="assets/images/vc-motinur-rahman-office.jpg" alt="Preview Photo">
+            </div>
+            <div class="photo-controls">
+              <h4>Profile Photo Management</h4>
+              <p>Upload a new official photo from your computer or provide a web URL. Changes are immediately saved and reflected across the entire site.</p>
+              
+              <div class="file-input-wrapper">
+                <label for="adminPhotoFile" class="file-btn">
+                  <i class="fas fa-camera"></i> Upload New Photo
+                </label>
+                <input type="file" id="adminPhotoFile" class="hidden-file-input" accept="image/*">
+                <span style="font-size: 1.25rem; color: var(--text-muted);">(Supports JPG, PNG, WEBP)</span>
+              </div>
+
+              <div class="url-input-row">
+                <input type="url" id="adminPhotoUrl" placeholder="Or paste image URL (https://...)" />
+                <button type="button" class="btn btn-secondary" id="applyPhotoUrlBtn" style="padding: 0.9rem 1.8rem; font-size: 1.35rem;">
+                  Apply URL
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Details Form -->
+          <form id="adminProfileForm" class="admin-form-box">
+            <h4><i class="fas fa-edit"></i> Edit Official Information</h4>
+            <div class="admin-form-grid">
+              <div class="form-group">
+                <label for="adminProfName">Full Name</label>
+                <input type="text" id="adminProfName" required>
+              </div>
+              <div class="form-group">
+                <label for="adminProfTitle">Designation / Title</label>
+                <input type="text" id="adminProfTitle" required>
+              </div>
+              <div class="form-group">
+                <label for="adminProfDept">Department</label>
+                <input type="text" id="adminProfDept" required>
+              </div>
+              <div class="form-group">
+                <label for="adminProfUniv">University & Location</label>
+                <input type="text" id="adminProfUniv" required>
+              </div>
+              <div class="form-group">
+                <label for="adminProfEmail">Official Email</label>
+                <input type="email" id="adminProfEmail" required>
+              </div>
+              <div class="form-group">
+                <label for="adminProfPhone">Mobile / Cellular</label>
+                <input type="text" id="adminProfPhone" required>
+              </div>
+              <div class="form-group full-col">
+                <label for="adminProfOffice">Office Location</label>
+                <input type="text" id="adminProfOffice" required>
+              </div>
+              <div class="form-group full-col">
+                <label for="adminProfBio">Biography & Leadership Profile</label>
+                <textarea id="adminProfBio" rows="4" required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 1.5rem;">
+              <i class="fas fa-save"></i> Save Profile Details
+            </button>
+          </form>
+        </div>
+
+        <!-- 2. Publications Tab -->
+        <div class="tab-pane" id="tabPublications">
+          <form id="adminAddPubForm" class="admin-form-box">
+            <h4><i class="fas fa-plus-circle"></i> Add New Book / Publication</h4>
+            <div class="admin-form-grid">
+              <div class="form-group full-col">
+                <label for="newPubTitle">Title *</label>
+                <input type="text" id="newPubTitle" placeholder="e.g. Poverty and Development in Bangladesh" required>
+              </div>
+              <div class="form-group">
+                <label for="newPubAuthors">Authors *</label>
+                <input type="text" id="newPubAuthors" placeholder="e.g. Prof. Dr. A K M Motinur Rahman" required>
+              </div>
+              <div class="form-group">
+                <label for="newPubVenue">Journal / Publisher / Venue *</label>
+                <input type="text" id="newPubVenue" placeholder="e.g. The Islamic University Studies / Lambert Academic Publisher" required>
+              </div>
+              <div class="form-group">
+                <label for="newPubYear">Year *</label>
+                <input type="number" id="newPubYear" value="2024" min="1990" max="2035" required>
+              </div>
+              <div class="form-group">
+                <label for="newPubCategory">Category *</label>
+                <select id="newPubCategory" required>
+                  <option value="book">Authored Book</option>
+                  <option value="journal">Journal Paper</option>
+                  <option value="conference">International Conference</option>
+                </select>
+              </div>
+              <div class="form-group full-col">
+                <label for="newPubDoi">Link URL / DOI (Optional)</label>
+                <input type="url" id="newPubDoi" placeholder="https://www.iu.ac.bd/...">
+              </div>
+              <div class="form-group full-col">
+                <label for="newPubAbstract">Abstract / Overview (Optional)</label>
+                <textarea id="newPubAbstract" rows="3" placeholder="Brief summary of research or book..."></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 1.5rem;">
+              <i class="fas fa-plus"></i> Add Entry
+            </button>
+          </form>
+
+          <h4 style="font-size: 1.6rem; color: var(--navy-dark); margin-bottom: 1rem;">
+            Current Books & Publications (<span id="adminPubCountText"></span>)
+          </h4>
+          <div class="admin-card-list" id="adminPubList">
+            <!-- Dynamic publications list with delete buttons -->
+          </div>
+        </div>
+
+        <!-- 3. Experience Tab -->
+        <div class="tab-pane" id="tabExperience">
+          <form id="adminAddExpForm" class="admin-form-box">
+            <h4><i class="fas fa-plus-circle"></i> Add New Academic / Administrative Experience</h4>
+            <div class="admin-form-grid">
+              <div class="form-group">
+                <label for="newExpRole">Role / Designation *</label>
+                <input type="text" id="newExpRole" placeholder="e.g. Vice-Chancellor / Professor / Proctor" required>
+              </div>
+              <div class="form-group">
+                <label for="newExpOrg">Institution / Department *</label>
+                <input type="text" id="newExpOrg" placeholder="e.g. Islamic University, Kushtia" required>
+              </div>
+              <div class="form-group">
+                <label for="newExpPeriod">Duration / Period *</label>
+                <input type="text" id="newExpPeriod" placeholder="e.g. 2024 – Present" required>
+              </div>
+              <div class="form-group">
+                <label for="newExpHighlight">Highlight Tag</label>
+                <input type="text" id="newExpHighlight" placeholder="e.g. Chief Executive / University Leadership">
+              </div>
+              <div class="form-group full-col">
+                <label for="newExpDesc">Description of Responsibilities</label>
+                <textarea id="newExpDesc" rows="3" placeholder="Key leadership and administrative responsibilities..."></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 1.5rem;">
+              <i class="fas fa-plus"></i> Add Experience
+            </button>
+          </form>
+
+          <h4 style="font-size: 1.6rem; color: var(--navy-dark); margin-bottom: 1rem;">Current Experience Entries</h4>
+          <div class="admin-card-list" id="adminExpList">
+            <!-- Dynamic experience list with delete buttons -->
+          </div>
+        </div>
+
+        <!-- 4. Skills Tab -->
+        <div class="tab-pane" id="tabSkills">
+          <form id="adminAddSkillForm" class="admin-form-box">
+            <h4><i class="fas fa-plus-circle"></i> Add New Discipline / Skill</h4>
+            <div class="admin-form-grid">
+              <div class="form-group">
+                <label for="newSkillName">Discipline / Skill Name *</label>
+                <input type="text" id="newSkillName" placeholder="e.g. Institutional Governance" required>
+              </div>
+              <div class="form-group">
+                <label for="newSkillCategory">Category *</label>
+                <select id="newSkillCategory" required>
+                  <option value="academic">Public Administration & Governance</option>
+                  <option value="islamic">Islamic Economics & Zakat</option>
+                  <option value="tech">Policy, SDGs & E-Governance</option>
+                  <option value="ai">International Relations & Diplomacy</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="newSkillLevel">Proficiency Percentage (1 - 100) *</label>
+                <input type="number" id="newSkillLevel" min="10" max="100" value="95" required>
+              </div>
+              <div class="form-group">
+                <label for="newSkillIcon">FontAwesome Icon Class</label>
+                <input type="text" id="newSkillIcon" value="fas fa-award" placeholder="fas fa-landmark, fas fa-university">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 1.5rem;">
+              <i class="fas fa-plus"></i> Add Skill
+            </button>
+          </form>
+
+          <h4 style="font-size: 1.6rem; color: var(--navy-dark); margin-bottom: 1rem;">Current Disciplines & Skills</h4>
+          <div class="admin-card-list" id="adminSkillList">
+            <!-- Dynamic skills list with delete buttons -->
+          </div>
+        </div>
+
+        <!-- 5. Settings / Reset Tab -->
+        <div class="tab-pane" id="tabSettings">
+          <div class="admin-form-box">
+            <h4><i class="fas fa-database"></i> Portfolio Backup & Reset</h4>
+            <p style="font-size: 1.4rem; color: var(--text-muted); margin-bottom: 2rem;">
+              All updates are persisted in your browser's local storage. You can export a full JSON backup of the Vice-Chancellor's portfolio data or restore original verified CV data at any time.
+            </p>
+
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+              <button type="button" class="btn btn-primary" id="adminExportBtn">
+                <i class="fas fa-download"></i> Export Data Backup (JSON)
+              </button>
+              <button type="button" class="btn btn-secondary" id="adminResetDataBtn" style="color: #dc2626; border-color: #fca5a5;">
+                <i class="fas fa-history"></i> Restore Verified VC Data
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       CURRICULUM VITAE (CV) PREVIEW & PRINT MODAL
+       ======================================================== -->
+  <div class="modal-overlay" id="cvModal">
+    <div class="cv-modal-content">
+      <div class="admin-header cv-modal-header" style="background: linear-gradient(135deg, var(--navy-dark), var(--primary-color));">
+        <div class="admin-title">
+          <i class="fas fa-file-alt"></i>
+          <div>
+            <h3>Official Curriculum Vitae</h3>
+            <p>Professor Dr. A K M Motinur Rahman • Islamic University, Kushtia</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="https://www.iu.ac.bd/public/images/teacher/7f89c7924538a027a7cecd6ab4d045fd.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding: 0.8rem 1.4rem; font-size: 1.3rem; background: #fff;">
+            <i class="fas fa-download"></i> Official PDF
+          </a>
+          <button type="button" class="btn btn-orange" id="printCvBtn" style="padding: 0.8rem 1.6rem; font-size: 1.35rem;">
+            <i class="fas fa-print"></i> Print / Save PDF
+          </button>
+          <button type="button" class="close-modal-btn" id="closeCvModal" title="Close CV Preview">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="cv-preview-paper" id="cvPaperContent">
+        <!-- Live rendered curriculum vitae generated by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
